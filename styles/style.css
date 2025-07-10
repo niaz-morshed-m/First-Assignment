@@ -49,10 +49,57 @@ margin-left: 220px;
     justify-content: center;
 }
 
-.header{
+.hero{
     margin: 0 auto;
     max-width: 1440px;
     background-image: url('../Assets/Hero-bg.png');
     background-size: cover;
     padding-bottom: 145px;
+}
+
+.title{
+color: rgb(37, 36, 50);
+font-family: Raleway;
+font-size: 42px;
+font-weight: 700;
+text-align: left;
+display: block;
+margin-bottom: 30px;
+}
+
+.subtitle{
+    color: rgba(37, 36, 50, 0.5);
+font-family: Raleway;
+font-size: 24px;
+font-weight: 400;
+text-align: left;
+display: block;
+margin-bottom: 30px;
+}
+
+.btn-action{
+    width: 229px;
+    height: 48px;
+    padding: 12px 36px 12px 36px;
+    border-radius: 10px;
+    background: rgb(78, 71, 255);
+    color: rgb(255, 255, 255);
+    font-family: Raleway;
+    font-size: 16px;
+     font-weight: 700;
+     text-align: center;
+}
+
+.action-img img{
+    border-radius: 48px;
+}
+
+.action-container{
+    display: flex;
+    justify-content: center;
+    gap: 220px;
+    
+}
+.action{
+    margin-top: 120px;
 }
