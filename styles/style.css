@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+nav p{
+
+color: rgb(78, 71, 255);
+font-family: Inter;
+font-size: 34px;
+font-weight: 900;
+text-align: left;
+margin-left: 120px;
+
+}
+
+.btn-primary{
+    height: 48px;
+    width: 132px;
+    border-radius: 10px;
+    background: rgb(78, 71, 255);
+    color: rgb(255, 255, 255);
+    font-family: Raleway;
+     font-size: 13px;
+    font-weight: 700;
+     text-align: center;
+     margin-right: 120px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.banner p{
+color: rgb(37, 36, 50);
+font-family: Raleway;
+font-size: 65px;
+font-weight: 700;
+text-align: center;
+margin-right: 220px;
+margin-left: 220px;
+}
+
+.banner-button{
+    display: flex;
+    justify-content: center;
+}
+
+.header{
+    margin: 0 auto;
+    max-width: 1440px;
+    background-image: url('../Assets/Hero-bg.png');
+    background-size: cover;
+    padding-bottom: 145px;
+}
